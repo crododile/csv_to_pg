@@ -1,28 +1,7 @@
 == README
+This looks like a rails project, but the only thing of relevance is the rake task named test
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+It creates a rails migration and runs it and copies a csv into it.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+to use type rake csv_to_pg filepath=YOUR_FULL_FILEPATH modelname=NAME_OF_MODEL_TO_BE_GENERATED
+Look inside it and grab parts at will
