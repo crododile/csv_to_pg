@@ -3,5 +3,7 @@ This looks like a rails project, but the only thing of relevance is the rake tas
 
 It creates a rails migration and runs it and copies a csv into it.
 
-to use type rake csv_to_pg filepath=YOUR_FULL_FILEPATH modelname=NAME_OF_MODEL_TO_BE_GENERATED
+put the csv in lib/assets
+
+to use type rake csv_to_pg filename=FILENAME modelname=NAME_OF_MODEL_TO_BE_GENERATED
 Look inside it and grab parts at will
